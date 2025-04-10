@@ -1,0 +1,43 @@
+/* Spinner */
+.spinner {
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* App background */
+
+.background-container {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, #50d880, #ffffff);
+}
+
+.radial-gradient-1 {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle 800px at 100% 200px, rgba(186, 230, 253, 0.375), transparent);
+}
+
+.radial-gradient-2 {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle 800px at 0% 300px, rgba(254, 205, 211, 0.375), transparent);
+}
+
+.radial-gradient-3 {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle 800px at 50% 800px, rgba(165, 243, 252, 0.375), transparent);
+}

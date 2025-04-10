@@ -1,0 +1,29 @@
+{
+    "name": "tenfe-backend",
+    "version": "1.0.0",
+    "description": "A Node.js/Express application",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "seedTrains": "node scripts/createTrainsAndInsertInDb.js"
+    },
+    "keywords": [
+        "express",
+        "node",
+        "mongodb"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.9.1",
+        "nodemailer": "^6.10.0",
+        "uid": "^2.0.2"
+    }
+}
